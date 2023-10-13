@@ -10,7 +10,8 @@
 				"mblode.twig-language-2",
 				"eamodio.gitlens",
 				"ms-vscode.live-server",
-				"moetelo.twiggy"
+				"moetelo.twiggy",
+				"attilabuti.vscode-mjml"
 			]
 		}
 	}
