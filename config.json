@@ -1,0 +1,10 @@
+{
+  "name": "Kato Dance Studio",
+  "author": "sit.insitute",
+  "authorUrl": "https://sit.institute",
+  "features": [
+    "email",
+    "page",
+    "form"
+  ]
+}
