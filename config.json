@@ -2,9 +2,10 @@
   "name": "Kato Dance Studio",
   "author": "sit.insitute",
   "authorUrl": "https://sit.institute",
+  "builder": ["grapesjsbuilder"],
   "features": [
-    "email",
     "page",
+    "email",
     "form"
   ]
 }

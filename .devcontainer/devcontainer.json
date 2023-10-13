@@ -3,12 +3,14 @@
 {
 	"name": "Alpine",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.18",
+	"image": "mcr.microsoft.com/devcontainers/base:0-bullseye",
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"mblode.twig-language-2",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"ms-vscode.live-server",
+				"moetelo.twiggy"
 			]
 		}
 	}
