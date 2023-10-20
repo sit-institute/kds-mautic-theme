@@ -1,11 +1,9 @@
 {
-  "name": "Kato Dance Studio",
+  "name": "KDS",
   "author": "sit.insitute",
   "authorUrl": "https://sit.institute",
   "builder": ["grapesjsbuilder"],
   "features": [
-    "page",
-    "email",
-    "form"
+    "email"
   ]
 }
