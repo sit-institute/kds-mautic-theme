@@ -1,6 +1,6 @@
 #!/bin/bash
 
-zip -r KDS.zip \
+zip -r kds-core.zip \
     config.json \
     html \
     assets \
