@@ -1,0 +1,9 @@
+{
+  "name": "KDS K Pop",
+  "author": "sit.insitute",
+  "authorUrl": "https://sit.institute",
+  "builder": ["grapesjsbuilder"],
+  "features": [
+    "email"
+  ]
+}
