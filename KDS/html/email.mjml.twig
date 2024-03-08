@@ -84,11 +84,11 @@
         <!-- <mj-divider border-color="#CCC" border-width="1px" padding="0" /> -->
         <mj-divider padding="0" />
         <mj-navbar base-url="https://www.kds-dance.com">
-            <mj-navbar-link font-size="16px" href="/kds-app">KDS App</mj-navbar-link>
-            <mj-navbar-link font-size="16px" href="/vermietung">Vermietung</mj-navbar-link>
-            <mj-navbar-link font-size="16px" href="/kursplan">Kursplan</mj-navbar-link>
-            <!-- <mj-navbar-link font-size="16px" href="/veranstaltungen">Veranstaltungen</mj-navbar-link> -->
-            <mj-navbar-link font-size="16px" href="/newsletter-big-k-pop-day">Big K Pop Day 2024</mj-navbar-link>
+            <mj-navbar-link font-size="14px" href="/kds-app">App</mj-navbar-link>
+            <mj-navbar-link font-size="14px" href="/vermietung">Vermietung</mj-navbar-link>
+            <mj-navbar-link font-size="14px" href="/kursplan">Kursplan</mj-navbar-link>
+            <!-- <mj-navbar-link font-size="14px" href="/veranstaltungen">Veranstaltungen</mj-navbar-link> -->
+            <mj-navbar-link font-size="14px" href="/newsletter-big-k-pop-day">Big K Pop Day</mj-navbar-link>
         </mj-navbar>
         <mj-divider padding="0" />
       </mj-column>
@@ -143,15 +143,13 @@
     <mj-section background-color="#EEE" padding-top="0">
       <mj-column>
         <mj-text font-size="14px" align="center" color="#444">
-          {webview_text}
-        </mj-text>
-        <mj-text font-size="14px" align="center" color="#444">
+          {webview_text}<br/>
           {unsubscribe_text}
         </mj-text>
+        <mj-raw>
+          <img src="{tracking_pixel}" style="visibility: hidden; width: 0px; height: 0px;" />
+        </mj-raw>
       </mj-column>
     </mj-section>
-    <mj-raw>
-      <img src="{tracking_pixel}" style="visibility: hidden; width: 0px; height: 0px;" />
-    </mj-raw>
   </mj-body>
 </mjml>
